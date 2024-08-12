@@ -1,0 +1,35 @@
+{
+  "name": "xbigdaddyx/itsm",
+  "description": "ITSM module for teresa-core.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Faisal Yusuf",
+      "email": "yussupcazzanova97@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Xbigdaddyx\\Itsm\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Xbigdaddyx\\Itsm\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^11.20",
+    "spatie/laravel-package-tools": "^1.16"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  }
+}
