@@ -104,10 +104,7 @@ class ItsmServiceProvider extends PackageServiceProvider
     protected function getMigrations(): array
     {
         return [
-            //'add_current_company_id_column_to_user_table_02082024_10_46',
-            //'create_companies_table_02082024_10_40'
-            // '20230109_1032_create_Itsm_types_table',
-            // '20230109_1033_create_Itsm_documents_table'
+            //
         ];
     }
     public function packageRegistered(): void
